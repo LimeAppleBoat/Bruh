@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "bruh",
+  "version": "${version}",
+  "name": "Bruh",
+  "description": "a modpack lol",
+  "authors": [
+    "SNEAKY"
+  ],
+  "contact": {
+    "website": "limeappleboat.jab125.com"
+  },
+  "license": "MIT",
+  "icon": "assets/bruh/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.jab125.limeappleboat.bruh.client.BruhClient"
+    ],
+    "main": [
+      "com.jab125.limeappleboat.bruh.Bruh"
+    ]
+  },
+  "mixins": [
+    "bruh.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.5",
+    "fabric": "*",
+    "minecraft": "1.17.1"
+  }
+}
